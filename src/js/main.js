@@ -4,6 +4,7 @@ import '../scss/styles.scss'
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
+/*
 let apiKey = undefined;
 
 // selector for the modal
@@ -18,4 +19,11 @@ const apiInput = document.querySelector("#apiKeyInput");
 const submit = document.querySelector(".modal-submit");
 submit.addEventListener("click", () => {
     apiKey = apiInput.value;
+});
+
+*/
+
+const citySelection = document.querySelector("#citySelect");
+citySelection.addEventListener("change", () => {
+        console.log(parseInt(citySelection.value));
 });
