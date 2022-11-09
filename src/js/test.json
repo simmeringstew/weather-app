@@ -1,0 +1,51 @@
+{
+    "count": 1,
+    "data": [
+        {
+            "app_temp": 12.1,
+            "aqi": 32,
+            "city_name": "New York City",
+            "clouds": 25,
+            "country_code": "US",
+            "datetime": "2022-11-09:18",
+            "dewpt": -0.5,
+            "dhi": 94.88,
+            "dni": 790.27,
+            "elev_angle": 29.25,
+            "ghi": 474.47,
+            "gust": 5.5,
+            "h_angle": 36,
+            "lat": 40.716,
+            "lon": -74,
+            "ob_time": "2022-11-09 18:10",
+            "pod": "d",
+            "precip": 0,
+            "pres": 1034.7,
+            "rh": 42,
+            "slp": 1036.2,
+            "snow": 0,
+            "solar_rad": 471.1,
+            "sources": [
+                "WTCN6"
+            ],
+            "state_code": "NY",
+            "station": "WTCN6",
+            "sunrise": "11:36",
+            "sunset": "21:43",
+            "temp": 12.1,
+            "timezone": "America/New_York",
+            "ts": 1668017400,
+            "uv": 2.6240182,
+            "vis": 16,
+            "weather": {
+                "description": "Few clouds",
+                "code": 801,
+                "icon": "c02d"
+            },
+            "wind_cdir": "SW",
+            "wind_cdir_full": "southwest",
+            "wind_dir": 228,
+            "wind_spd": 2.86
+        }
+    ]
+}
