@@ -9,8 +9,25 @@
     <title>Weather App</title>
 </head>
 <body>
+    <div class="modal fade px-5" data-bs-backdrop="static" data-bs-keyboard="false" id="apiKey" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header mb-3">
+                    <div class="modal-title">Enter Your Weatherbit Api Key</div>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="apiKeyInput" placeholder="API Key">
+                    <label for="apiKeyInput">API Key</label>
+                    <div class="text-end">
+                        <button class="btn modal-submit mt-3" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container px-3">
         <h1 class="mt-5 text-center">Weather App</h1>
+        <button class="btn test">Test</button>
     </div>
 </body>
 </html>

@@ -37,6 +37,21 @@ body {
     border-radius: 2rem;
 }
 
+.modal-content {
+    padding: 1rem;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.modal-submit {
+    color: white;
+    background-image: linear-gradient(to right top, #0ea5e9, #00b3e5, #00bdc9, #00c399, #22c55e);
+    font-weight: 400;
+}
+
 h1 {
     color: white;
     font-size: 3rem;
