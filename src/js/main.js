@@ -19,8 +19,3 @@ const submit = document.querySelector(".modal-submit");
 submit.addEventListener("click", () => {
     apiKey = apiInput.value;
 });
-
-const test = document.querySelector(".test");
-test.addEventListener("click", () => {
-    console.log(apiKey);
-});
