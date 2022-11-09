@@ -29,8 +29,16 @@ html:focus-within {
 body {
     text-rendering: optimizeSpeed;
     font-family: 'Ubuntu', sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #0ea5e9, #00b3e5, #00bdc9, #00c399, #22c55e);
 }
 
 .btn {
     border-radius: 2rem;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
 }
